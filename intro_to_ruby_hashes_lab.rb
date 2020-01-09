@@ -40,7 +40,7 @@ def update_counting_hash(hash, key)
   hash = {
     apples: 3
   }
-  def update_hash
+  def update_hash(hash, key)
     if hahsh[:apples]
       hash[:apples] += 1
     else
