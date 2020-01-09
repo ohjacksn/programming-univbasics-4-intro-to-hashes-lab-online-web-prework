@@ -44,6 +44,6 @@ def update_counting_hash(hash, key)
     if :apples
       hash[:apples] += 1
     else
-      hash
+      hash[:oranges] += 1
     
 end
