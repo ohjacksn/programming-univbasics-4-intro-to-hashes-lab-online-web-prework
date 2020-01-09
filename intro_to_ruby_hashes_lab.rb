@@ -40,5 +40,10 @@ def update_counting_hash(hash, key)
   hash = {
     apples: 3
   }
-  update_hash 
+  def update_hash
+    if :apples
+      hash[:apples] += 1
+    else
+      hash
+    
 end
